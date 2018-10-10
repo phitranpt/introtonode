@@ -1,0 +1,81 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.salaryTitle h1 {
+    font-weight: 200;
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+.salaryTitle {
+    background-color: rgb(80, 80, 80);
+    padding: 30px 0px 30px 0px;
+}
+
+.addEmployeeTitle h2 {
+    margin: 0;
+    font-weight: 200;
+    padding: 20px 0px 20px 7.25%;
+}
+
+.addEmployeeTitle {
+    padding-top: 50px;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 102);
+}
+
+.employeeListTitle {
+    font-family: 'Trebuchet MS';
+    padding: 20px 0px 20px 0px;
+}
+
+form {
+   text-align: center;
+   padding-bottom: 50px;
+}
+
+#firstName, #lastName, #idNum, #title, #annualSalary {
+    height: 20px;
+    font-size: 18px;
+}
+
+#addEmployeeButton {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border: 3px solid rgb(80, 80, 80);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(221, 221, 221);
+}
+
+thead, tbody, tr ,th, td {
+    border: 1px solid black;
+    height: 15px; 
+    padding: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+#totalCost {
+    margin-top: 50px;
+    padding: 10px 10px 10px 0px;
+    font-family: 'Trebuchet MS';
+    text-align: end;
+}
+
+.overBudget {
+    background-color: red;
+}
+
